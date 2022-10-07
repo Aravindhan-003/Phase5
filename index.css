@@ -1,0 +1,64 @@
+.head{
+    border: 2px solid black;
+    text-align:center;
+    margin-bottom: 20px;
+    color: red;
+}
+#main{
+    position: absolute;
+    float: left;
+    padding-right: 10%;
+    padding-left: 15%;
+}
+#first{
+    position: relative;
+    padding-bottom: 30px;
+    padding-left: 30%;
+    padding-right: 15%;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+#first-1{
+    position: relative;
+    padding-bottom: 30px;
+    padding-left: 30%;
+    padding-right: 15%;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+#second {
+    text-align: center;
+    padding-top: 5%;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    border: 2px solid blue;
+    float: right;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#third , #third-2 ,#third-3{
+    text-align: center;
+    margin-top:45%;
+}
+
+.project{
+    color:blue;
+}
+.project-1{
+    color: red;
+}
+.project-2{
+    color: brown;
+}
+
+#result{   
+    position: absolute;
+    margin: 31%;
+}
