@@ -7,9 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Selenium_aler {
  public static void main(String args[]) throws InterruptedException {
-	// Step 1: load the chrome driver
-	   //"C:\\Users\\Virendra\\Desktop\\Simplilearn\\All Phases\\Phase-5\\Selenium Material\\chromedriver.exe"
-	    System.setProperty("webdriver.chrome.driver", "F:\\LocalDisk F\\Mphasis\\phase 5\\chromedriver.exe");
+	    System.setProperty("webdriver.chrome.driver", "F:\\LocalDisk F\\mp\\phase 5\\chromedriver.exe");
 	    WebDriver driver = new ChromeDriver(); // this intializes the chrome web browser
 	    
 	    // Step 2: open the url/website
