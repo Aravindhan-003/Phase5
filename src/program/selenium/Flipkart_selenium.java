@@ -73,7 +73,7 @@ public void  flipkart() throws InterruptedException{
    }
 	@BeforeMethod
 	  public void Beforemethod() {
-	    System.setProperty("webdriver.chrome.driver", "F:\\LocalDisk F\\Mphasis\\phase 5\\chromedriver.exe");
+	    System.setProperty("webdriver.chrome.driver", "F:\\LocalDisk F\\mp\\phase 5\\chromedriver.exe");
 	    driver = new ChromeDriver(); // this intializes the chrome web browser
 	  }
 	  
