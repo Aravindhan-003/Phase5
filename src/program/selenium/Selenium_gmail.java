@@ -9,7 +9,7 @@ public class Selenium_gmail {
 	public static void main(String[] args) throws InterruptedException{
 		
 	// Step 1: load the chrome driver
-	System.setProperty("webdriver.chrome.driver", "F:\\LocalDisk F\\Mphasis\\phase 5\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "F:\\LocalDisk F\\mp\\phase 5\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver(); // this intializes the chrome web browser
 	
 	// Step 2: open the url/website
